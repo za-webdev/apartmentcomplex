@@ -1,0 +1,28 @@
+﻿.outterDiv {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 139px
+}
+
+#VehicleInfoDiv {
+    margin-left: 150px;
+}
+.display
+{
+    display:flex;
+    margin-left:10%;
+}
+.wrapperDiv {
+    height: 243px;
+    width: 277px;
+    margin-left: 478px;
+    margin-top: 139px
+}
+.success{
+    margin:70px 0px 50px 450px;
+    color:green;
+}
+.error {
+    margin: 10px 0px 10px 750px;
+    color:red;
+}

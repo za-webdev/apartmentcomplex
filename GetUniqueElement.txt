@@ -1,0 +1,13 @@
+
+// This function can be run on any online javascript editor with different values to view in console. 
+You can use https://jsfiddle.net/
+
+function getUniqueElement(array) {
+  for (var index = 0, single = []; index < array.length; index++) {
+    if (array.indexOf(array[index], array.indexOf(array[index]) + 1) == -1)
+      single.push(array[index]);
+  }
+  return single;
+}
+    
+console.log(singles([1,1,2,2,3,4]))
